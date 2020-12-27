@@ -1,0 +1,33 @@
+body {
+  background-color: rgb(100, 149, 237);
+
+}
+div {
+    display: inline-block;
+}
+
+.object1,
+.object2,
+.object3 {
+    display: block;
+    width: 200px;
+    height: 100px;
+    background-color: rgb(255, 255, 0);
+}
+.object1 {
+  color: rgb(0, 128, 0);
+}
+.object2 {
+  background-color: rgb(255, 127, 80);
+  color: rgb(75, 0, 130);
+}
+.object3 {
+  background-color: rgb(245, 245, 220);
+  color: rgb(0, 255, 255);
+}
+.object3:hover {
+background-color: rgb(127, 255, 212);
+cursor: grabbing;
+color: rgb(0, 0, 0);
+
+}

@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+}
+.home {
+  background-image: url(https://images.unsplash.com/photo-1527737071469-99ca92035fd6?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxleHBsb3JlLWZlZWR8OTB8fHxlbnwwfHx8&auto=format&fit=crop&w=500&q=60);
+  background-size: 100%;
+}
+.contact {background-image: url(https://images.unsplash.com/photo-1469474968028-56623f02e42e?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MjJ8fHxlbnwwfHx8&auto=format&fit=crop&w=500&q=60);
+background-size: 100%;
+}
+  .about {background-image: url(https://images.unsplash.com/photo-1538947117537-48239ec91f18?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTE4fHx8ZW58MHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60);
+background-size: 100%;
+}
+
+.page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.avatar {
+  margin: 10px 0 10px 15px;
+  height: 200px;
+  border-radius: 50%;
+}
+.information {
+  font-weight: 400;
+}
+.navigation {
+background-color: aqua;
+height: 40px;
+line-height: 40px;
+
+}
+.navigation_items {
+    list-style: none;
+}
+.items {
+  display: inline-block;
+ margin-right: 10px;
+}
+.contacts {
+  font-weight: 500;
+  color: white;
+
+}
+.hobbies {
+  font-weight: 500;
+  color: white;
+  list-style: none;
+}
+.home {
+  font-weight: 500;
+  color: white;
+}
